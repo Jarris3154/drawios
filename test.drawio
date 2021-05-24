@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T01:35:12.245Z" agent="5.0 (Windows)" etag="W39qcfBC9JtzT7NAncCB" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T02:06:51.358Z" agent="5.0 (Windows)" etag="GRjx62LyTUUtBheI1ums" version="14.7.0" type="github">
   <diagram id="y4Olgu8ze6KcVt4n7WNO" name="Page-1">
     <mxGraphModel dx="1566" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
         <mxCell id="ikuRrJnBZcYC7U_u3UF_-113" value="子平台（多个）" style="swimlane;startSize=0;swimlaneLine=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="2036" y="180" width="180" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="ikuRrJnBZcYC7U_u3UF_-118" value="实际数据服务接口" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="ikuRrJnBZcYC7U_u3UF_-113" vertex="1">
+        <mxCell id="ikuRrJnBZcYC7U_u3UF_-118" value="接口服务" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="ikuRrJnBZcYC7U_u3UF_-113" vertex="1">
           <mxGeometry x="54" y="100" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ikuRrJnBZcYC7U_u3UF_-121" value="HTTP请求子平台数据后台转发" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#393C56;" parent="1" vertex="1">
@@ -238,7 +238,7 @@
           <mxGeometry x="50" y="320" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ikuRrJnBZcYC7U_u3UF_-146" value="添加子平台并维护子平台状态流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1726" y="480" width="354" height="40" as="geometry" />
+          <mxGeometry x="1846" y="496" width="354" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ikuRrJnBZcYC7U_u3UF_-147" value="主控平台（1个）" style="swimlane;startSize=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1846" y="560" width="174" height="480" as="geometry" />
@@ -373,7 +373,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ikuRrJnBZcYC7U_u3UF_-266" value="&lt;div&gt;备注： &lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 如果子平台的告警一些配置删除后，主控平台就可以直接忽略。&lt;/div&gt;&lt;div&gt;2. 如果是对告警的配置更改操作，由于子平台的告警已经处理过了，后面再更新告警配置，会出现主控平台的告警也会修改为最新的，导致处理后的主控平台与子平台不一致。这种情况不影响，暂不考虑。&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;align=center;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="2550" y="830" width="190" height="120" as="geometry" />
+          <mxGeometry x="2920" y="425" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ikuRrJnBZcYC7U_u3UF_-267" value="子平台（多个）" style="swimlane;startSize=0;swimlaneLine=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="3750" y="160" width="180" height="300" as="geometry" />
@@ -395,7 +395,7 @@
             <mxPoint x="-2460" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PDJhoE1Zn0zeLsKq7TQ1-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="ikuRrJnBZcYC7U_u3UF_-269" source="PDJhoE1Zn0zeLsKq7TQ1-14" target="PDJhoE1Zn0zeLsKq7TQ1-12" edge="1">
+        <mxCell id="PDJhoE1Zn0zeLsKq7TQ1-9" value="是" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="ikuRrJnBZcYC7U_u3UF_-269" source="PDJhoE1Zn0zeLsKq7TQ1-14" target="PDJhoE1Zn0zeLsKq7TQ1-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="210" as="sourcePoint" />
             <mxPoint x="80" y="240" as="targetPoint" />
@@ -420,6 +420,22 @@
         </mxCell>
         <mxCell id="PDJhoE1Zn0zeLsKq7TQ1-17" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="3622" y="500" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m7mWC0S_bfmLdgyerf4q-1" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="PDJhoE1Zn0zeLsKq7TQ1-12" target="PDJhoE1Zn0zeLsKq7TQ1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7mWC0S_bfmLdgyerf4q-2" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" parent="1" source="PDJhoE1Zn0zeLsKq7TQ1-14" target="PDJhoE1Zn0zeLsKq7TQ1-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3580" y="355" />
+              <mxPoint x="3580" y="518" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7mWC0S_bfmLdgyerf4q-3" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="m7mWC0S_bfmLdgyerf4q-2">
+          <mxGeometry x="-0.5822" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
