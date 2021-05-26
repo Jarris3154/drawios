@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T00:50:13.514Z" agent="5.0 (Windows)" etag="ux8jgEWsNxMp1Za_FZS6" version="14.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-26T00:51:33.847Z" agent="5.0 (Windows)" etag="3i9lfQpgS8JAi-93Ww5F" version="14.7.1" type="github" pages="3">
   <diagram id="y4Olgu8ze6KcVt4n7WNO" name="通用">
     <mxGraphModel dx="-67" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NF7U-etoVrAlIEO8YtDh-1" value="子平台（多个）" style="swimlane;startSize=0;swimlaneLine=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1960" y="650" width="210" height="400" as="geometry" />
+          <mxGeometry x="1960" y="650" width="210" height="430" as="geometry" />
         </mxCell>
         <mxCell id="NF7U-etoVrAlIEO8YtDh-22" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="NF7U-etoVrAlIEO8YtDh-1" source="NF7U-etoVrAlIEO8YtDh-20" target="NF7U-etoVrAlIEO8YtDh-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -203,11 +203,14 @@
         <mxCell id="NF7U-etoVrAlIEO8YtDh-23" value="记录当前登录的一级用户名到操作日志中。" style="whiteSpace=wrap;html=1;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="NF7U-etoVrAlIEO8YtDh-1" vertex="1">
           <mxGeometry x="110" y="230" width="84" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NF7U-etoVrAlIEO8YtDh-28" value="记录当前登录的一级用户名到操作日志中。" style="whiteSpace=wrap;html=1;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="NF7U-etoVrAlIEO8YtDh-1" vertex="1">
-          <mxGeometry x="24" y="320" width="84" height="60" as="geometry" />
+        <mxCell id="3hOBRtc6Y00xcPjIjxTh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NF7U-etoVrAlIEO8YtDh-1" source="NF7U-etoVrAlIEO8YtDh-28" target="3hOBRtc6Y00xcPjIjxTh-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NF7U-etoVrAlIEO8YtDh-29" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;token&quot;: &quot;12344&quot;,&lt;/div&gt;&lt;div&gt;&quot;username&quot;: &quot;zhangsan&quot;,&lt;/div&gt;&lt;div&gt;&quot;platformUsername&quot;: &quot;root&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="NF7U-etoVrAlIEO8YtDh-1" vertex="1">
-          <mxGeometry x="110" y="330" width="100" height="70" as="geometry" />
+        <mxCell id="NF7U-etoVrAlIEO8YtDh-28" value="操作子平台" style="whiteSpace=wrap;html=1;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="NF7U-etoVrAlIEO8YtDh-1" vertex="1">
+          <mxGeometry x="10" y="290" width="84" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hOBRtc6Y00xcPjIjxTh-1" value="记录当前操作的一级用户名到操作日志中。" style="whiteSpace=wrap;html=1;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="NF7U-etoVrAlIEO8YtDh-1">
+          <mxGeometry x="10" y="370" width="84" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NF7U-etoVrAlIEO8YtDh-3" value="主控平台（1个）" style="swimlane;startSize=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1770" y="650" width="160" height="400" as="geometry" />
@@ -253,6 +256,9 @@
         </mxCell>
         <mxCell id="NF7U-etoVrAlIEO8YtDh-27" value="token" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="1" source="NF7U-etoVrAlIEO8YtDh-26" target="NF7U-etoVrAlIEO8YtDh-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NF7U-etoVrAlIEO8YtDh-29" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;token&quot;: &quot;12344&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;username&quot;: &quot;zhangsan&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;platformUsername&quot;: &quot;root&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="2180" y="840" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
