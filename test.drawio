@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T06:17:18.672Z" agent="5.0 (Windows)" etag="upkNMOtwT6ZShbTRJfqB" version="14.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-27T06:20:48.003Z" agent="5.0 (Windows)" etag="jX9zwkHsSPvcGOK9_eI_" version="14.7.1" type="github" pages="3">
   <diagram id="y4Olgu8ze6KcVt4n7WNO" name="通用">
     <mxGraphModel dx="469" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -452,7 +452,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vF_JZBkJHlaQEmiJKmIn" name="实时数据">
-    <mxGraphModel dx="1102" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="2fCm0sXbCm3QWZoOPHTk-0" />
         <mxCell id="2fCm0sXbCm3QWZoOPHTk-1" parent="2fCm0sXbCm3QWZoOPHTk-0" />
@@ -471,7 +471,7 @@
             <mxPoint x="310" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ersaLic7juivwMawi9X--11" value="订阅组态需要的实时测点key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ersaLic7juivwMawi9X--10" vertex="1" connectable="0">
+        <mxCell id="ersaLic7juivwMawi9X--11" value="(1)订阅组态需要的实时测点key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ersaLic7juivwMawi9X--10" vertex="1" connectable="0">
           <mxGeometry x="-0.709" y="2" relative="1" as="geometry">
             <mxPoint x="63" y="-32" as="offset" />
           </mxGeometry>
@@ -490,7 +490,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ersaLic7juivwMawi9X--16" value="订阅需要的测点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ersaLic7juivwMawi9X--15" vertex="1" connectable="0">
+        <mxCell id="ersaLic7juivwMawi9X--16" value="(2)订阅需要的测点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ersaLic7juivwMawi9X--15" vertex="1" connectable="0">
           <mxGeometry x="0.049" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -501,7 +501,7 @@
             <mxPoint x="420" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ersaLic7juivwMawi9X--18" value="返回对应测点的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ersaLic7juivwMawi9X--17" vertex="1" connectable="0">
+        <mxCell id="ersaLic7juivwMawi9X--18" value="(3)返回对应测点的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ersaLic7juivwMawi9X--17" vertex="1" connectable="0">
           <mxGeometry x="-0.4866" y="2" relative="1" as="geometry">
             <mxPoint x="-33" y="2" as="offset" />
           </mxGeometry>
@@ -512,7 +512,7 @@
             <mxPoint x="90" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ersaLic7juivwMawi9X--20" value="返回对应测点的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ersaLic7juivwMawi9X--19" vertex="1" connectable="0">
+        <mxCell id="ersaLic7juivwMawi9X--20" value="(4)返回对应测点的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ersaLic7juivwMawi9X--19" vertex="1" connectable="0">
           <mxGeometry x="-0.3872" y="2" relative="1" as="geometry">
             <mxPoint x="-11" y="7" as="offset" />
           </mxGeometry>
