@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T08:11:12.037Z" agent="5.0 (Windows)" etag="b7J-c3mbxCYzmyoe_9C9" version="14.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-27T09:14:26.051Z" agent="5.0 (Windows)" etag="y8oeDctz25f7ASRSdcf2" version="14.7.2" type="github" pages="4">
   <diagram id="y4Olgu8ze6KcVt4n7WNO" name="通用">
     <mxGraphModel dx="275" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -613,70 +613,104 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xzgcGb_byvZWZtXy2Vnk" name="根据设备生成资产">
-    <mxGraphModel dx="677" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-0" />
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-1" parent="gK5zrokKlXyaRQ_XkHa6-0" />
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-21" value="根据采集设备的信息&lt;b&gt;自动&lt;/b&gt;创建资产" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-3" target="gK5zrokKlXyaRQ_XkHa6-22">
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-21" value="根据采集设备的信息&lt;b&gt;自动&lt;/b&gt;创建资产" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-32" target="gK5zrokKlXyaRQ_XkHa6-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="570.0000000000001" as="targetPoint" />
+            <mxPoint x="140" y="800" as="targetPoint" />
+            <mxPoint x="140" y="750" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-3" value="资产服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="440" y="460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-6" value="采集设备创建成功事件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-5" target="gK5zrokKlXyaRQ_XkHa6-3">
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-6" value="采集设备创建成功事件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-5" target="gK5zrokKlXyaRQ_XkHa6-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-5" value="采集服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="440" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-5" value="采集服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="150" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-9" value="&lt;div&gt;添加设备&lt;/div&gt;&lt;div&gt;（或批量导入）&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-8" target="gK5zrokKlXyaRQ_XkHa6-5">
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-9" value="&lt;div&gt;添加设备&lt;/div&gt;&lt;div&gt;（或批量导入）&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-8" target="gK5zrokKlXyaRQ_XkHa6-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-8" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="485" y="190" width="30" height="60" as="geometry" />
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-8" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="195" y="360" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-25" value="&lt;b&gt;手动&lt;/b&gt;根据资产信息生成采集设备信息" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-12" target="gK5zrokKlXyaRQ_XkHa6-26">
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-25" value="根据资产信息生成采集设备信息" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-12" target="gK5zrokKlXyaRQ_XkHa6-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="675" y="560" as="targetPoint" />
+            <mxPoint x="560" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-12" value="资产" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="615" y="460" width="120" height="60" as="geometry" />
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-12" value="资产" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="500" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-13" value="用户选择某个资产进行实例化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-14" target="gK5zrokKlXyaRQ_XkHa6-12">
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-13" value="用户手动对某些资产进行实例化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-14" target="gK5zrokKlXyaRQ_XkHa6-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-14" value="资产服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="615" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-14" value="资产服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="500" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-15" value="&lt;div&gt;添加资产&lt;/div&gt;&lt;div&gt;（或批量导入）&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-17" target="gK5zrokKlXyaRQ_XkHa6-14">
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-15" value="&lt;div&gt;添加资产&lt;/div&gt;&lt;div&gt;（或批量导入）&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-17" target="gK5zrokKlXyaRQ_XkHa6-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-17" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="660" y="190" width="30" height="60" as="geometry" />
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-17" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="545" y="360" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-22" target="gK5zrokKlXyaRQ_XkHa6-23">
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-33" target="gK5zrokKlXyaRQ_XkHa6-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="172.43902439024396" y="847.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-23" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="185" y="875" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-26" target="gK5zrokKlXyaRQ_XkHa6-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-22" value="资产创建完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="452.5" y="570" width="95" height="47.5" as="geometry" />
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-26" value="实例化的采集设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="500" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-23" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="475" y="645" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-26" target="gK5zrokKlXyaRQ_XkHa6-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-26" value="实例化的采集设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="615" y="570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-27" value="&lt;div&gt;&lt;b&gt;采集设备和资产的关系&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;采集设备是大平台中已有的功能，与新加入系统的资产功能关系是：&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&amp;nbsp; 采集设备一定是资产&lt;/li&gt;&lt;li&gt;&amp;nbsp; 资产不一定是采集设备。&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;所以用户在添加资产的时候可以选择部分资产实例化为设备。&lt;/div&gt;&lt;div&gt;但是添加设备的时候必须生成资产。&lt;br&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-27" value="&lt;div&gt;&lt;b&gt;采集设备和资产的关系&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;采集设备是大平台中已有的功能，与新加入系统的资产功能关系是：&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&amp;nbsp; 采集设备一定是资产&lt;/li&gt;&lt;li&gt;&amp;nbsp; 资产不一定是采集设备。&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;所以用户在添加资产的时候可以选择部分资产实例化为设备。&lt;/div&gt;&lt;div&gt;但是添加设备的时候必须生成资产。&lt;br&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
           <mxGeometry x="70" y="60" width="280" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="gK5zrokKlXyaRQ_XkHa6-28" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
-          <mxGeometry x="650" y="655" width="50" height="50" as="geometry" />
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-28" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="535" y="835" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-31" value="采集设备" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.96;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-30" target="gK5zrokKlXyaRQ_XkHa6-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-30" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAC6ElEQVRoge2a4bGqMBCFvxIogRLoQDq4dnDp4NmBdKAdSAfXDqSDawfQgXbg+xEZNktC4I0EnXlnZscZsiFnk+xuNgj/AcAW+AEeT2mAA5CuyGkWEmwDtNyAYi1yc3DCb4SUfCV+k5Bjk71iZj8HjqqtWYPgVJzpibaYbSaxxTZmG5PcHDT0JHcenavQKePQmo874dmu+QBDanqSlaM9wUSt0KqtjhLbBwrR5grLaeB9GbB5/kZFgr29uuh0Uc8emCjmwx7b37r8s1+KuAsZQ2O0XBlGNJ7PfgN9fz19F0GG7S96JXxEdK7xyc9y1N3IxOAV4z4hdR+YichEW63a85ezDWBqqJWr0TJcteT5fIqPLYKphtSESZbYKxYVrzRErlr9EnYB5BiHlMmvC8V73M5+VHqurSVD8uJb64BN3iU3bGfdO3Qu2M6uc5Hs/3KcJhgh5Q/hvOGS85JG7DyDXjH7uQ2Quz/fcQ7o+ZLpS6APg50zpkpvizvra90dQ8NbIpyWC8egvlnTxdVj5L0pxheiHRr1dghVfrK4WiVL+1BjE0sD+iXzDI+GGptYaCvow2G+ILdZqLCJhSo/HXKjF04+aAe+4d9eJUNn99UmG0yu2Xh0FkHL0Jhv0Z7iz/oN/fZKRvRORDDIFVbnyp5wpm9iGFPMIH3HrEIok7eOZ5elDQF/9h7L5IWjT0U/8wnDgBIlZCeYyFVjr0CFP9TqCtGFFtvQqJCrMIZa6L51hRgauCY829ErRImpA8sywJWH9Ak76uWDvOIJXayl2M7cAF8Yn/piePOYLkPZhqs07Wb6MNJv6gVdlNXIGBZZWsZWpwr0rRZjLuCqFFuMf+g8UY68J2eYKGsiHvdLNXgh2hIHuTQWsbmoGd8C+rPD2xRUGnJbffSnt5aepK+4kqfbMgqrf4D0Addx+2M+T+cMk9o3psLTxVK7CsMZqJiW1PJ16E2Hq3aQcudD/lTTYcvwLx1H3jh3vD3+AjxfMCPECZriAAAAAElFTkSuQmCC;imageBorder=#000000;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="185" y="610" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-34" value="拉取采集设备创建日志" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-32" target="gK5zrokKlXyaRQ_XkHa6-30">
+          <mxGeometry x="-0.1351" y="43" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-32" value="资产服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="150" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-33" value="资产创建完成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="162.5" y="800" width="95" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-37" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;fontColor=#393C56;dashed=1;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-35" target="gK5zrokKlXyaRQ_XkHa6-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-35" value="采集设备" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="100" y="270" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-36" value="资产" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="235" y="270" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F4F1DE;fontColor=#393C56;dashed=1;" edge="1" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-39" target="gK5zrokKlXyaRQ_XkHa6-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-39" value="资产" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="470" y="270" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gK5zrokKlXyaRQ_XkHa6-40" value="采集设备" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+          <mxGeometry x="605" y="270" width="75" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
