@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T06:30:36.260Z" agent="5.0 (Windows)" etag="A6PaP-1Kx62FWuWOdNzt" version="14.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-27T06:40:08.404Z" agent="5.0 (Windows)" etag="PkeORjNZc2B_ZMm14nxt" version="14.7.2" type="github" pages="3">
   <diagram id="y4Olgu8ze6KcVt4n7WNO" name="通用">
-    <mxGraphModel dx="469" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="-386" dy="241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,15 +25,15 @@
         <mxCell id="ikuRrJnBZcYC7U_u3UF_-136" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0.894;exitY=0.2;exitDx=0;exitDy=0;entryX=0.112;entryY=0.189;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;exitPerimeter=0;entryPerimeter=0;labelBackgroundColor=#F4F1DE;" parent="1" source="ikuRrJnBZcYC7U_u3UF_-131" target="ikuRrJnBZcYC7U_u3UF_-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ikuRrJnBZcYC7U_u3UF_-137" value="请求对应子平台的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ikuRrJnBZcYC7U_u3UF_-136" vertex="1" connectable="0">
+        <mxCell id="ikuRrJnBZcYC7U_u3UF_-137" value="(2)请求对应子平台的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ikuRrJnBZcYC7U_u3UF_-136" vertex="1" connectable="0">
           <mxGeometry x="-0.2142" y="1" relative="1" as="geometry">
             <mxPoint x="7" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ikuRrJnBZcYC7U_u3UF_-139" value="查询出的数据" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="ikuRrJnBZcYC7U_u3UF_-118" target="ikuRrJnBZcYC7U_u3UF_-131" edge="1">
+        <mxCell id="ikuRrJnBZcYC7U_u3UF_-139" value="(3)查询出的数据" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="ikuRrJnBZcYC7U_u3UF_-118" target="ikuRrJnBZcYC7U_u3UF_-131" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ikuRrJnBZcYC7U_u3UF_-141" value="&lt;br&gt;传入子平台Id及子平台数据查询参数" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="ikuRrJnBZcYC7U_u3UF_-133" target="ikuRrJnBZcYC7U_u3UF_-131" edge="1">
+        <mxCell id="ikuRrJnBZcYC7U_u3UF_-141" value="&lt;br&gt;(1)传入子平台Id及子平台数据查询参数" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="ikuRrJnBZcYC7U_u3UF_-133" target="ikuRrJnBZcYC7U_u3UF_-131" edge="1">
           <mxGeometry x="0.7209" y="41" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="1160" as="sourcePoint" />
             <mxPoint x="1050" y="1110" as="targetPoint" />
@@ -45,7 +45,7 @@
             <mxPoint x="980" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ikuRrJnBZcYC7U_u3UF_-143" value="返回封装后的结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ikuRrJnBZcYC7U_u3UF_-142" vertex="1" connectable="0">
+        <mxCell id="ikuRrJnBZcYC7U_u3UF_-143" value="(4)返回封装后的结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="ikuRrJnBZcYC7U_u3UF_-142" vertex="1" connectable="0">
           <mxGeometry x="-0.2284" y="-1" relative="1" as="geometry">
             <mxPoint x="-10" y="7" as="offset" />
           </mxGeometry>
