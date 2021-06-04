@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T07:04:35.261Z" agent="5.0 (Windows)" etag="BdcB156fuhfFJKdjOG0h" version="14.7.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-04T08:40:23.117Z" agent="5.0 (Windows)" etag="6p1S9Nri_bsK2uNV9uEp" version="14.7.5" type="github" pages="5">
   <diagram id="y4Olgu8ze6KcVt4n7WNO" name="通用">
     <mxGraphModel dx="595" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -611,7 +611,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xzgcGb_byvZWZtXy2Vnk" name="根据设备生成资产">
-    <mxGraphModel dx="1185" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-0" />
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-1" parent="gK5zrokKlXyaRQ_XkHa6-0" />
@@ -641,7 +641,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-12" value="资产" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="gK5zrokKlXyaRQ_XkHa6-1" vertex="1">
-          <mxGeometry x="444" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="444" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-13" value="用户手动对某些资产进行实例化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" parent="gK5zrokKlXyaRQ_XkHa6-1" source="gK5zrokKlXyaRQ_XkHa6-14" target="gK5zrokKlXyaRQ_XkHa6-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -667,13 +667,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-26" value="实例化的采集设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="gK5zrokKlXyaRQ_XkHa6-1" vertex="1">
-          <mxGeometry x="444" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="444" y="725" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-27" value="&lt;div&gt;&lt;b&gt;采集设备和资产的关系&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;采集设备是大平台中已有的功能，与新加入系统的资产功能关系是：&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&amp;nbsp; 采集设备一定是资产&lt;/li&gt;&lt;li&gt;&amp;nbsp; 资产不一定是采集设备。&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;所以用户在添加资产的时候可以选择部分资产实例化为设备。&lt;/div&gt;&lt;div&gt;但是添加设备的时候必须生成资产。&lt;br&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#393C56;" parent="gK5zrokKlXyaRQ_XkHa6-1" vertex="1">
           <mxGeometry x="70" y="60" width="280" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-28" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="gK5zrokKlXyaRQ_XkHa6-1" vertex="1">
-          <mxGeometry x="479" y="835" width="50" height="50" as="geometry" />
+          <mxGeometry x="479" y="810" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-33" value="资产创建完成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="gK5zrokKlXyaRQ_XkHa6-1" vertex="1">
           <mxGeometry x="164.5" y="702.5" width="95" height="47.5" as="geometry" />
@@ -696,7 +696,7 @@
         <mxCell id="gK5zrokKlXyaRQ_XkHa6-40" value="采集设备" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="gK5zrokKlXyaRQ_XkHa6-1" vertex="1">
           <mxGeometry x="549" y="270" width="75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="o5RBwnSE5SIvmtgaF1WJ-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/mysql-128.png;imageBorder=#000000;" vertex="1" parent="gK5zrokKlXyaRQ_XkHa6-1">
+        <mxCell id="o5RBwnSE5SIvmtgaF1WJ-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/mysql-128.png;imageBorder=#000000;" parent="gK5zrokKlXyaRQ_XkHa6-1" vertex="1">
           <mxGeometry x="187" y="610" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
