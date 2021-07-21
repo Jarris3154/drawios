@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T08:29:36.442Z" agent="5.0 (Windows)" etag="9y8LAuIecf5qyhgSPbOR" version="14.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-21T09:33:54.599Z" agent="5.0 (Windows)" etag="YE1aNCU82rzBombyPYTc" version="14.7.5" type="github" pages="2">
   <diagram id="8139mPN0AKQkDATvqnbi" name="场景一">
     <mxGraphModel dx="1422" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rc4cJNgUSgESx1fXajIE" name="场景二">
-    <mxGraphModel dx="1422" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Iep0IO20YgfSR1-2lDho-0" />
         <mxCell id="Iep0IO20YgfSR1-2lDho-1" parent="Iep0IO20YgfSR1-2lDho-0" />
@@ -46,13 +46,19 @@
           <mxGeometry x="544" y="100" width="168.82" height="214" as="geometry" />
         </mxCell>
         <mxCell id="igdvtDWH_usGFmr15wQb-6" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;主&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
-          <mxGeometry x="620" y="650" width="141" height="160" as="geometry" />
+          <mxGeometry x="686" y="680" width="141" height="160" as="geometry" />
         </mxCell>
         <mxCell id="igdvtDWH_usGFmr15wQb-7" value="&lt;div&gt;MySQL&lt;br&gt;&lt;/div&gt;&lt;div&gt;备&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
-          <mxGeometry x="1050" y="640" width="141" height="160" as="geometry" />
+          <mxGeometry x="1050" y="680" width="141" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-EraPR5gtUhfbuORPZ20-12" value="&lt;div&gt;拉取SQL&lt;/div&gt;&lt;div&gt;并写入备db&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;fontColor=#000000;" edge="1" parent="Iep0IO20YgfSR1-2lDho-1" source="igdvtDWH_usGFmr15wQb-8" target="-EraPR5gtUhfbuORPZ20-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-EraPR5gtUhfbuORPZ20-13" value="写入sql" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Iep0IO20YgfSR1-2lDho-1" source="-EraPR5gtUhfbuORPZ20-6" target="igdvtDWH_usGFmr15wQb-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="igdvtDWH_usGFmr15wQb-8" value="Redis" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/mscae/Cache_Redis_Product.svg;fontColor=#000000;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
-          <mxGeometry x="850" y="910" width="133.33" height="112" as="geometry" />
+          <mxGeometry x="880.0000000000001" y="1240" width="133.33" height="112" as="geometry" />
         </mxCell>
         <mxCell id="igdvtDWH_usGFmr15wQb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Iep0IO20YgfSR1-2lDho-1" source="igdvtDWH_usGFmr15wQb-9" target="igdvtDWH_usGFmr15wQb-12">
           <mxGeometry relative="1" as="geometry">
@@ -83,13 +89,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-EraPR5gtUhfbuORPZ20-2" value="SyncLog" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
-          <mxGeometry x="833.34" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="870" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-EraPR5gtUhfbuORPZ20-3" value="发送Sql" style="endArrow=classic;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="Iep0IO20YgfSR1-2lDho-1">
+        <mxCell id="-EraPR5gtUhfbuORPZ20-3" value="拉取Sql" style="endArrow=classic;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="Iep0IO20YgfSR1-2lDho-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="660" as="sourcePoint" />
-            <mxPoint x="1030" y="660" as="targetPoint" />
+            <mxPoint x="840" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="710" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-EraPR5gtUhfbuORPZ20-6" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;主&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="650" y="1000" width="141" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-EraPR5gtUhfbuORPZ20-7" value="&lt;div&gt;MySQL&lt;br&gt;&lt;/div&gt;&lt;div&gt;备&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="1080" y="1000" width="141" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-EraPR5gtUhfbuORPZ20-8" value="SyncLog" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="827.0000000000001" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
