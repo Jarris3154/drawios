@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T07:34:05.918Z" agent="5.0 (Windows)" version="14.7.5" etag="DS5rY17l5gGRngs1iLP0" type="github"><diagram id="8139mPN0AKQkDATvqnbi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-21T08:27:06.430Z" agent="5.0 (Windows)" etag="xrL4IjcoINs1aEQOJhFk" version="14.7.5" type="github" pages="2">
+  <diagram id="8139mPN0AKQkDATvqnbi" name="场景一">
+    <mxGraphModel dx="1422" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6tmDyTUizjbkTAaWWpOx-2" value="192.168.79.97" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="114" y="100" width="168.82" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="6tmDyTUizjbkTAaWWpOx-3" value="192.168.79.98" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="544" y="100" width="168.82" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="6tmDyTUizjbkTAaWWpOx-4" value="Keepalived" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6tmDyTUizjbkTAaWWpOx-5" value="192.168.79.99" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="152.82" y="60" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6tmDyTUizjbkTAaWWpOx-6" value="192.168.79.99" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="563.41" y="60" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6tmDyTUizjbkTAaWWpOx-7" value="切换" style="endArrow=classic;html=1;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="69.5" as="sourcePoint" />
+            <mxPoint x="534" y="69.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6tmDyTUizjbkTAaWWpOx-9" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;主&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="127.91" y="370" width="141" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6tmDyTUizjbkTAaWWpOx-10" value="&lt;div&gt;MySQL&lt;br&gt;&lt;/div&gt;&lt;div&gt;备&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="557.91" y="370" width="141" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rc4cJNgUSgESx1fXajIE" name="场景二">
+    <mxGraphModel dx="1422" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Iep0IO20YgfSR1-2lDho-0" />
+        <mxCell id="Iep0IO20YgfSR1-2lDho-1" parent="Iep0IO20YgfSR1-2lDho-0" />
+        <mxCell id="igdvtDWH_usGFmr15wQb-0" value="192.168.79.97" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontStyle=1;fontSize=20;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="114" y="100" width="168.82" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-1" value="192.168.79.98" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontSize=20;fontStyle=1" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="544" y="100" width="168.82" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-6" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;主&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="127.91" y="370" width="141" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-7" value="&lt;div&gt;MySQL&lt;br&gt;&lt;/div&gt;&lt;div&gt;备&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="557.91" y="370" width="141" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-8" value="Redis" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/mscae/Cache_Redis_Product.svg;fontColor=#000000;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="347" y="490" width="133.33" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Iep0IO20YgfSR1-2lDho-1" source="igdvtDWH_usGFmr15wQb-9" target="igdvtDWH_usGFmr15wQb-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-9" value="查询主db状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="138.41" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="Iep0IO20YgfSR1-2lDho-1" source="igdvtDWH_usGFmr15wQb-12" target="igdvtDWH_usGFmr15wQb-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198.41000000000008" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-16" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#000000;" edge="1" parent="Iep0IO20YgfSR1-2lDho-1" source="igdvtDWH_usGFmr15wQb-12" target="igdvtDWH_usGFmr15wQb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-12" value="主db是否在线？" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="121.91" y="820" width="153" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-15" value="&lt;div&gt;主db降备，&lt;/div&gt;&lt;div&gt;备db升主&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontColor=#000000;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="353.67" y="830" width="136.33" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igdvtDWH_usGFmr15wQb-17" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;fontColor=#000000;" vertex="1" parent="Iep0IO20YgfSR1-2lDho-1">
+          <mxGeometry x="158.41" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-EraPR5gtUhfbuORPZ20-1" value="10s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#000000;fontStyle=0" edge="1" parent="Iep0IO20YgfSR1-2lDho-1" source="igdvtDWH_usGFmr15wQb-9" target="igdvtDWH_usGFmr15wQb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
