@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T10:01:35.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="uTwUJ4hz72MNFT-Wz10k" version="14.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-23T10:03:11.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="u8o3yCUYCL6WrdddMqt0" version="14.9.2" type="github" pages="3">
   <diagram id="rc4cJNgUSgESx1fXajIE" name="总体设计">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,6 +80,9 @@
         <mxCell id="3Y5qJiJgZ6nx7BUhkn-I-10" value="同步SQL" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3Y5qJiJgZ6nx7BUhkn-I-1" source="3Y5qJiJgZ6nx7BUhkn-I-3" target="3Y5qJiJgZ6nx7BUhkn-I-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KiDXPSvSlTimF1fyZaZ--1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3Y5qJiJgZ6nx7BUhkn-I-1" source="3Y5qJiJgZ6nx7BUhkn-I-3" target="KiDXPSvSlTimF1fyZaZ--0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3Y5qJiJgZ6nx7BUhkn-I-3" value="Redis" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/mscae/Cache_Redis_Product.svg;fontColor=#000000;" vertex="1" parent="3Y5qJiJgZ6nx7BUhkn-I-1">
           <mxGeometry x="159.84000000000015" y="358" width="133.33" height="112" as="geometry" />
         </mxCell>
@@ -148,6 +151,9 @@
         </mxCell>
         <mxCell id="3Y5qJiJgZ6nx7BUhkn-I-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/128/Wifi_Not_Connected.png" vertex="1" parent="3Y5qJiJgZ6nx7BUhkn-I-32">
           <mxGeometry x="48.5" y="102" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="KiDXPSvSlTimF1fyZaZ--0" value="Clear 0~9" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="3Y5qJiJgZ6nx7BUhkn-I-1">
+          <mxGeometry x="414.00000000000006" y="394" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
